@@ -1,0 +1,11 @@
+<html>
+<body>
+    <h1>Halo, {{ nama }}!</h1>
+    <p>Daftar buah kesukaan Anda:</p>
+    <ul>
+    {% for b in buah %}   <!-- Tanda titik dua di akhir untuk sintaks Python yang benar -->
+        <li>{{ b }}</li>  <!-- Cetak item dalam list buah -->
+    {% endfor %}
+    </ul>
+</body>
+</html>
